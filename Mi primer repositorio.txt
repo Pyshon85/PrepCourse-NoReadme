@@ -17,3 +17,13 @@ Aprendiendo Git
     Tenemos que tener mucho cuidado en no ejecutar este comando dentro de archivos del sistema
     Este comando crea un archivo oculto .git dentro del archivo donde estamos ubicados
     podemos ver las archivos ocultos con el comando linux ls -l
+
+4.- Ver el estado del repositorio
+
+    git status
+
+    Si es la primera vez que utilizamos este comado y no se realizaron modificaciones al proyecto
+    la consola nos mostrara en que rama nos encontramos y entre otra informacion, que aun no se
+    realizo ningun commit
+
+    Un commit es una instantanea del desarrollo del proyecto en el tiempo
