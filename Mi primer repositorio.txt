@@ -1,8 +1,19 @@
 Aprendiendo Git
 
 1.- Crear credenciales
+
     git config --global user.name "David"
     git config --global user.email "davidriveracastanon@gmail.com
 
 2.- Ver revisar el usuario y el email
+
     git config --global -l
+
+3.- Gestionar un proyecto o un repositorio
+
+    git init
+
+    Debemos usar este comando dentro de la carpeta o directorio que queremos Gestionar
+    Tenemos que tener mucho cuidado en no ejecutar este comando dentro de archivos del sistema
+    Este comando crea un archivo oculto .git dentro del archivo donde estamos ubicados
+    podemos ver las archivos ocultos con el comando linux ls -l
