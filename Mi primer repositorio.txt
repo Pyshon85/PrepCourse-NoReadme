@@ -1,1 +1,8 @@
 Aprendiendo Git
+
+1.- Crear credenciales
+    git config --global user.name "David"
+    git config --global user.email "davidriveracastanon@gmail.com
+
+2.- Ver revisar el usuario y el email
+    git config --global -l
