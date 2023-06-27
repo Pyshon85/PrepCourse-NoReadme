@@ -32,6 +32,14 @@ Aprendiendo Git
 
     git add "Nombre del archivo.txt"
 
-    El stage es un area previa a realizar un commit, esta area exixte para registrar y mejorar la 
-    gestion de los archivos y mostrar por ejemplo diferencias entre los estados de los archivos en 
-    el tiempo.
+    El stage es un area previa a realizar un commit, esta area existe para registrar y mejorar la 
+    gestion de los archivos y mostrar, por ejemplo; diferencias entre los estados de los archivos en 
+    el tiempo o deshacer algun cambio antes de ser comiteado, entre otras acciones.
+
+6.- Realizar un commit
+
+    git commit -m'Mensaje que describe el commit'
+
+    Existes algunos lineamientos a seguir para estandarizar los mensajes de los commits podemos revisar
+    esta informacione en Conventionl commits
+
