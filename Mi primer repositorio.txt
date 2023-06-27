@@ -36,10 +36,23 @@ Aprendiendo Git
     gestion de los archivos y mostrar, por ejemplo; diferencias entre los estados de los archivos en 
     el tiempo o deshacer algun cambio antes de ser comiteado, entre otras acciones.
 
+    Los documentos en el stage estan a la espera de ser comiteados o de ser registtrados en el 
+    repositorio local
+
 6.- Realizar un commit
 
     git commit -m'Mensaje que describe el commit'
 
     Existes algunos lineamientos a seguir para estandarizar los mensajes de los commits podemos revisar
     esta informacione en Conventionl commits
+
+7.- Listar commits
+
+    git log
+    git log --oneline
+
+    Estos comandos son empleados para mostrar una lista cronologica de los commits realizados.
+    La bandera --oneline sirve para mostrar la informacion de manera puntual y en una linea.
+
+
 
