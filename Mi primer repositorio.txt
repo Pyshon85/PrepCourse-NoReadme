@@ -9,7 +9,7 @@ Aprendiendo Git
 
     git config --global -l
 
-3.- Gestionar un proyecto o un repositorio
+3.- Iniciar la gestion de un proyecto o un repositorio
 
     git init
 
@@ -27,3 +27,11 @@ Aprendiendo Git
     realizo ningun commit
 
     Un commit es una instantanea del desarrollo del proyecto en el tiempo
+
+5.- Agregar Archivos al Stage
+
+    git add "Nombre del archivo.txt"
+
+    El stage es un area previa a realizar un commit, esta area exixte para registrar y mejorar la 
+    gestion de los archivos y mostrar por ejemplo diferencias entre los estados de los archivos en 
+    el tiempo.
